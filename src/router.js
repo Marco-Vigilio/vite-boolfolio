@@ -8,6 +8,7 @@ import AppAbout from "./components/pages/AppAbout.vue";
 
 const router = createRouter({
     history: createWebHistory(),
+
     routes: [
         {
             path: "/",
@@ -20,6 +21,7 @@ const router = createRouter({
             component: AppAbout,
         }
     ]
+
 });
 
 export { router };
