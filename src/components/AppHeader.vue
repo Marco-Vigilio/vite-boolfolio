@@ -12,10 +12,10 @@
             </li>
             -->
             <li>
-                <a href="#">Home</a>
+                <router-link :to="{ name: 'home' }">Home</router-link>
             </li>
             <li>
-                <a href="#">About</a>
+                <router-link :to="{ name: 'about' }">About us</router-link>
             </li>
         </ul>
     </nav>
