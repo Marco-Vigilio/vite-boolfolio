@@ -1,11 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+
 import AppHome from "./components/pages/AppHome.vue";
 import AppAbout from "./components/pages/AppAbout.vue";
 
+//alert(typeof createRouter);
+
 const router = createRouter({
     history: createWebHistory(),
-    routers: [
+    routes: [
         {
             path: "/",
             name: "home",
