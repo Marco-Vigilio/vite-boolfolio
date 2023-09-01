@@ -1,7 +1,14 @@
-<script>
-import axios from "axios";
-import SingleProjects from '../pages/SingleProjects.vue';
 
+<template>
+    <section>
+        <h1>Home</h1>
+        <SingleProjects v-if="projects" :projects='projects' />
+    </section>
+</template>
+
+<script>
+import SingleProjects from '../pages/SingleProjects.vue';
+import axios from "axios";
 
 export default {
     name: "AppHome",
@@ -35,11 +42,4 @@ export default {
     }
 }
 </script>
-
-<template>
-    <section>
-        <h1>Home</h1>
-        <SingleProjects v-if="projects" :projects='projects' />
-    </section>
-</template>
 <style lang="scss"></style>

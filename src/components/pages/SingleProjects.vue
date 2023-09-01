@@ -1,7 +1,7 @@
 <template lang="">
     <article class="single-post w-100">
         <h2>
-            {{ projects.title }}
+            {{ projects.id }}
         </h2>
     </article>
 </template>
