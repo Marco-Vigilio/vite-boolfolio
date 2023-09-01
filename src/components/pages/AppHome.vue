@@ -42,4 +42,11 @@ export default {
         <SingleProjects v-if="projects" :projects='projects' />
     </section>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+</style>

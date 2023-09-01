@@ -1,7 +1,4 @@
 <template>
-    <h1>
-        Sono Header
-    </h1>
     <nav>
         <ul>
             <!--
@@ -28,7 +25,24 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-    background-color: black;
-    color: white;
+    background-color: rgb(247, 255, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+
+
+        li {
+            margin: 2rem;
+
+            a {
+                text-decoration-line: none;
+            }
+        }
+    }
 }
 </style>
