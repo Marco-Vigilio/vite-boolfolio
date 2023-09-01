@@ -37,4 +37,11 @@ export default {
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 </style>
